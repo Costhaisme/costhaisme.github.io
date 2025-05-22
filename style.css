@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.principal{
+    margin: auto;
+    height: 300px;
+    width: 1000px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #feece0;
+    
+}
+
+.topo{
+    height: 200px;
+    margin-right: 100px;
+    font-size: 43px;
+    color: #58190a;
+    align-content: center;
+    
+}
+.titulo{
+    width: 100%;
+    margin-right: 20px;
+    color: #58190a;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    flex-basis: 100%;
+      
+}
+
+.pamonha{
+    
+    height: 200px;
+    margin-right: 80px;
+}
+
+.descricao{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #58190a;
+}
+
+.quantidade{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.less{
+    height: 15px;
+}
+
+.plus{
+    height: 15px;
+    margin-left: 20px;
+}
+
+.bag{
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-top: 2px;
+    align-content: center;
+    height: 30px;
+}
+
+.panela{
+    margin-top: 50px;
+    height: 30px;
+    padding-top: 2px;
+    padding-left: 80px;
+    align-content: center;
+}
+
+.receita{
+    height: 300px;
+    width: 1000px;
+    font-size: 20px;
+    color: #feece0;
+    margin: 30px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #9b6647;
+}
+
+.ingredientes{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 28px;
+    height: 35px;
+}
+
+.list1{
+    width: 30%;
+    text-align: left;
+}
+
+.preparo{
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 35px;
+    font-size: 28px;
+}
+
+.list2{
+    width: 50%;
+}
