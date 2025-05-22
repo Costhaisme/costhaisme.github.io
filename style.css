@@ -1,117 +1,112 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: white;
+body,html{
+    height: 100vh;
+    width: 100%;
+    height: 100%;
+    color: #000000;
 }
 
 .principal{
-    margin: auto;
-    height: 300px;
-    width: 1000px;
-    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
     display: flex;
-    justify-content: center;
-    background-color: #feece0;
-    
+    flex-direction: column; 
+    flex-wrap: wrap;   
 }
 
-.topo{
-    height: 200px;
-    margin-right: 100px;
-    font-size: 43px;
-    color: #58190a;
-    align-content: center;
-    
+.logo{
+    float: left;
+    margin-right: 20px;
 }
+
+
 .titulo{
     width: 100%;
-    margin-right: 20px;
-    color: #58190a;
-    text-align: center;
-    font-size: 16px;
+    margin-top: 40%;
+    padding: 15px;
+    font-size: 36px;
     font-weight: 700;
-    flex-basis: 100%;
-      
-}
-
-.pamonha{
-    
-    height: 200px;
-    margin-right: 80px;
-}
-
-.descricao{
-    font-size: 20px;
-    margin-top: 10px;
-    color: #58190a;
-}
-
-.quantidade{
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.less{
-    height: 15px;
-}
-
-.plus{
-    height: 15px;
-    margin-left: 20px;
-}
-
-.bag{
-    margin-top: 50px;
-    margin-left: 100px;
-    padding-top: 2px;
-    align-content: center;
-    height: 30px;
-}
-
-.panela{
-    margin-top: 50px;
-    height: 30px;
-    padding-top: 2px;
-    padding-left: 80px;
-    align-content: center;
-}
-
-.receita{
-    height: 300px;
-    width: 1000px;
-    font-size: 20px;
-    color: #feece0;
-    margin: 30px;
-    margin: auto;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    background-color: #9b6647;
-}
-
-.ingredientes{
-    margin-top: 50px;
-    margin-left: 10px;
-    font-size: 28px;
-    height: 35px;
-}
-
-.list1{
-    width: 30%;
+    color: #1E293B;
     text-align: left;
 }
 
-.preparo{
-    margin-top: 50px;
-    margin-left: 10px;
-    height: 35px;
-    font-size: 28px;
+.text{
+    width: 80%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #475569;
 }
 
-.list2{
-    width: 50%;
+.conteudo{
+    border: 5px;
+    flex-basis: 100%;
 }
+
+.formulario{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E293B;
+}
+
+.formulario-senha{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esqueceu{
+    text-decoration: none;
+    color: #7C3AED;
+}
+
+.botao{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.texto-botao{
+    
+    width: 300px;
+    height: 56px;
+    gap: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #7C3AED;
+    
+    
+}
+
+.texto-final{
+    margin-top: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.texto-final-destaque{
+    color: #7C3AED;
+    text-decoration: none;
+}
+
+.imagem{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+}
+    

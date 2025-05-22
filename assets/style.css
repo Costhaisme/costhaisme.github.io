@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.logo {
+    margin: 0 17%;
+    display: flex;
+
+}
+
+.conteudo {
+    margin: 0% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo-secao {
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulo {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1E293B;
+}
+
+.texto {
+    font-size: 16px;
+    font-weight: 400;
+    color: #475569;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E293B;
+}
+
+.formulario-senha {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.esqueceu {
+    text-decoration: none;
+    color: #7C3AED;
+}
+
+.olhos {
+    display: flex;
+
+}
+
+.texto-botao {
+    width: 384;
+    height: 56;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 165px;
+    padding-bottom: 16px;
+    padding-left: 165px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #7C3AED;
+}
+
+.texto-final {
+    font-size: 16px;
+    color: #475569;
+    
+}
+
+.texto-final-destaque {
+    font-weight: 700;
+    color: #7C3AED;
+    text-decoration: none;
+}
